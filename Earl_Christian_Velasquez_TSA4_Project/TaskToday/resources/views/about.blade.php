@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','About') @section('content')<h1>About this application</h1><p>Tasks for Today is a Laravel task management system. It supports validated task creation and editing, authentication for management actions, task archiving, and an email log when a task is newly marked done.</p>@endsection

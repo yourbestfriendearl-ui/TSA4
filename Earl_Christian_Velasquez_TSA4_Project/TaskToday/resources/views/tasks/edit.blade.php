@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Edit Task') @section('content')<h1>Edit task</h1><form method="POST" action="{{ route('tasks.update',$task) }}">@csrf @method('PUT') @include('tasks.form') </form>@endsection

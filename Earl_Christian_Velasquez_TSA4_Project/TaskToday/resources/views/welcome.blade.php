@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Tasks for Today') @section('content')<h1>Tasks for Today</h1><p>Plan your work, track progress, and keep your tasks moving.</p><a class="button" href="{{ route('tasks.index') }}">View task list</a>@endsection
